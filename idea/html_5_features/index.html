@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Features html5">
+        <meta name="author" content="Myshko E.V.">
+        <title>HTML5 Features</title>
+
+        <link rel="stylesheet" type="text/css" href="style/index.css"/>
+        <link rel="stylesheet" type="text/css" href="style/grid.css"/>
+        
+    </head>
+
+    <!-- JavaScript -->
+    <script src="src_js/hello_world.js"></script>
+
+    <!-- HTML -->
+    <body class="indexBackground">
+        <div class="grid-container">
+            <div class="grid-item1">
+                <p>SVG графика</p>
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="10" x2="1000" y2="10" style="stroke:rgb(255, 0, 0);stroke-width:4"/>
+                    <line x1="0" y1="20" x2="1000" y2="-10" style="stroke:rgb(12, 250, 4);stroke-width:4"/>
+                    <line x1="0" y1="30" x2="1000" y2="-30" style="stroke:rgb(16, 12, 247);stroke-width:4"/>
+                    <line x1="0" y1="40" x2="1000" y2="-50" style="stroke:rgb(255, 255, 255);stroke-width:4"/>
+                </svg>
+            </div>
+            <div class="grid-item1">
+                <p>Видео</p>
+                <div class="grid-container2">
+                    <img id="left_arrow" src="resources/left.png" alt="Left arrow" />
+                    <div class="grid-item1">
+                        <video id="video_player" controls preload="metadata">
+                            <source id="video_player_src" src="resources/video_2.3gp">
+                        </video>
+                    </div> 
+                    <img id="right_arrow" src="resources/right.png" alt="Right arrow" />
+                </div>  
+            </div>
+            <div class="grid-item1">
+                <p>Аудио</p>
+                <audio controls preload="metadata">
+                    <source src="resources/audio_1.mp3">
+                </audio>
+            </div>   
+        </div>
+        <footer class="grid-item1">
+            <p>Тег: meter</p>
+            <meter value="60" min="0" max="100">Полоска прогресса</meter>
+        </footer>
+    </body>
+
+    <!-- JavaScript -->
+    <script src="src_js/video_scroll.js"></script>
+
+</html>
