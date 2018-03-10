@@ -1,4 +1,4 @@
-var video = ["resources/video_1.mp4", "resources/video_2.3gp", "resources/video_3.3gp"];
+var video = ["resources/video_1.mp4", "resources/video_2.mp4", "resources/video_3.mp4"];
 
 var left_arrow = document.getElementById("left_arrow");
 var right_arrow = document.getElementById("right_arrow");
@@ -23,6 +23,7 @@ function next()
             current_video.setAttribute("src", video[next_index]);
         }
     }
+    document.getElementById('video_div').innerHtml = current_video;
 }
 
 function prew()
@@ -42,5 +43,6 @@ function prew()
             current_video.setAttribute("src", video[next_index]);
         }
     }
+    document.getElementById('video_div').innerHtml = current_video;
 }
 
