@@ -23,7 +23,9 @@ function next()
             current_video.setAttribute("src", video[next_index]);
         }
     }
-    document.getElementById('video_div').innerHtml = current_video;
+    var video_div = document.getElementById('video_div');
+    video_div.innerHTML = video_div.innerHTML;
+
 }
 
 function prew()
@@ -43,6 +45,7 @@ function prew()
             current_video.setAttribute("src", video[next_index]);
         }
     }
-    document.getElementById('video_div').innerHtml = current_video;
+    var video_div = document.getElementById('video_div');
+    video_div.innerHTML = video_div.innerHTML;
 }
 
