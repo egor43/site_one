@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+}
+.grid-item1 {
+    text-align:center;
+    font-size: 2.0em;
+    padding: 0%;
+    color: black;
+}
+.grid-item2 {
+    text-align:center;
+    font-size: 2.0em;
+    padding: 0%;
+    color: black;
+}
