@@ -54,3 +54,4 @@ $route['default_controller'] = 'helloworld';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['users'] = 'helloworld';
+$route['input'] = 'input';
